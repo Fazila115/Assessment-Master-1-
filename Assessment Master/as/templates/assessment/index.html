@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+
+<style>
+  .jumbotron{
+    margin-bottom: 0px;
+  }
+</style>
+<body>
+  {% include "assessment/navbar.html" %}
+<br>
+<section id="section-jumbotron" class="jumbotron jumbotron-fluid d-flex justify-content-center align-items-center"
+         style="background-color: beige;">
+  <div class="container text-center">
+    <br><br><br><br><br>
+    <h1 class="display-1 text-info" style="color: #0da775; font-family:Papyrus,fantasy; font-weight: bolder;">
+      Let's Assess Yourself</h1><br><br>
+    <p class="display-4 d-none d-sm-block">Sign Up to access various features!</p>
+    <br><br>
+  </div>  
+</section>
+  {% include "assessment/footer.html" %}
+
+
+</body>
+
+</html>

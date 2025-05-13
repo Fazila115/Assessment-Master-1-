@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <style media="screen">
+    .jumbotron {
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+
+    .jumbotron h1 {
+      text-align: center;
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  {% include "assessment/navbar.html" %}
+  <br><br>
+  <div class="jumbotron" style="margin-bottom:0px;">
+    <br><br>
+    <h1 class="display-4" style="color: #0da75f; font-size: 70px; font-family:Papyrus,fantasy; font-weight: bolder;">Hello, Student</h1>
+    <p class="lead" style="font-size: 40px;">Welcome to Assessment Master</p>
+    <p class="lead">
+      <a class="btn btn-primary btn-lg" href="studentsignup" role="button">Sign Up</a>
+      <a class="btn btn-primary btn-lg" href="studentlogin" role="button">Login</a>
+    </p>
+    <br><br><br><br><br><br>
+  </div>
+ 
+  {% include "assessment/footer.html" %}
+</body>
+
+</html>
